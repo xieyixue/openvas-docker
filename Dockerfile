@@ -52,10 +52,10 @@ RUN apt-get install build-essential \
                     -y --no-install-recommends && \
     mkdir /openvas-src && \
     cd /openvas-src && \
-        wget http://wald.intevation.org/frs/download.php/2191/openvas-libraries-8.0.5.tar.gz -O openvas-libraries.tar.gz && \
-        wget http://wald.intevation.org/frs/download.php/2129/openvas-scanner-5.0.4.tar.gz -O openvas-scanner.tar.gz && \
-        wget http://wald.intevation.org/frs/download.php/2195/openvas-manager-6.0.6.tar.gz -O openvas-manager.tar.gz && \
-        wget http://wald.intevation.org/frs/download.php/2200/greenbone-security-assistant-6.0.6.tar.gz -O greenbone-security-assistant.tar.gz && \
+        wget http://wald.intevation.org/frs/download.php/2229/openvas-libraries-8.1+beta2.tar.gz -O openvas-libraries.tar.gz && \
+        wget http://wald.intevation.org/frs/download.php/2233/openvas-scanner-5.1+beta2.tar.gz -O openvas-scanner.tar.gz && \
+        wget http://wald.intevation.org/frs/download.php/2241/openvas-manager-6.1+beta2.tar.gz -O openvas-manager.tar.gz && \
+        wget http://wald.intevation.org/frs/download.php/2245/greenbone-security-assistant-6.1+beta2.tar.gz -O greenbone-security-assistant.tar.gz && \
         wget http://wald.intevation.org/frs/download.php/2209/openvas-cli-1.4.3.tar.gz -O openvas-cli.tar.gz && \
         wget http://wald.intevation.org/frs/download.php/1975/openvas-smb-1.0.1.tar.gz -O openvas-smb.tar.gz && \
     cd /openvas-src/ && \
