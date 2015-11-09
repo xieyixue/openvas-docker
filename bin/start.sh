@@ -33,7 +33,7 @@ echo "Checking setup"
 
 until [ $n -eq 50 ]
 do
-         timeout 10s /openvas/openvas-check-setup --v8 --server;
+         timeout 10s /openvas/openvas-check-setup --v9 --server;
         if [ $? -eq 0 ]; then
                  break;
          fi
