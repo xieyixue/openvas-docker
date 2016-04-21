@@ -6,6 +6,8 @@ set_http_only=""
 if [ "$HTTP_ONLY" = "true" ]; then
   set_http_only="--http-only"
 fi
+echo "Start ssh"
+/usr/sbin/sshd -D
 
 echo "Starting Redis"
 mkdir -p /var/run/redis
