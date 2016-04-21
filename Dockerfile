@@ -1,6 +1,6 @@
 # OpenVAS
 
-FROM ubuntu:14.04
+FROM index.tenxcloud.com/alan_xie/ubuntu-ssh
 MAINTAINER Mike Splain mike.splain@gmail.com
 
 ADD bin/* /openvas/
